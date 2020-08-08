@@ -8,11 +8,7 @@ YggdrasilOfficialProxy 采用了代理服务器的方式建立Yggdrasil服务器
 official服务器的人同时登录的支持nya. 并且提供了2种加载方式nya!
 
 # 下载使用
-如果你能熟练使用命令行启动java程序的话, 或者你想把 YggdrasilOfficialProxy
-当做Java库使用. 下载 `dist\YggdrasilOfficialProxy-core.jar` nya.
-
-如果你是懒得打命令, 匹配代码的话. 下载 `dist\YggdrasilOfficialProxy.jar` nya.
-这个版本还包含了YOP使用的库nya.
+https://ci.codemc.io/job/Ghost-chu/job/YggdrasilOfficialProxy/
 
 # 使用
 ## JavaAgent启动 [推荐]
