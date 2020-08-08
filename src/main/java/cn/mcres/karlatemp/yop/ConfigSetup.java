@@ -71,8 +71,9 @@ public class ConfigSetup {
             out.println("############################");
             out.println("# Yggdrasil Official Proxy #");
             out.println("# Copyright (c) Karlatemp  #");
-            out.println("#     2018-2020.           #");
-            out.println("# All rights reserved.     #");
+            out.println("#        2018-2020.        #");
+            out.println("#   All rights reserved.   #");
+            out.println("#    Fork by Ghost_chu     #");
             out.println("############################");
             out.println("#            Version: " + Metadata.VERSION);
             out.println("#    Java    Version: " + Metadata.javaVersion);

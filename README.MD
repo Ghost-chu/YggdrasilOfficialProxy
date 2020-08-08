@@ -1,5 +1,6 @@
 # YggdrasilOfficialProxy
 
+此版本为YggdrasilOfficialProxy的一个Fork，主要解决依赖冲突问题，使得YOP可像普通Agent一样加载而无需繁琐设置  
 YggdrasilOfficialProxy 采用了代理服务器的方式建立Yggdrasil服务器和
 official服务器的人同时登录的支持nya. 并且提供了2种加载方式nya!
 
@@ -10,15 +11,8 @@ official服务器的人同时登录的支持nya. 并且提供了2种加载方式
 如果你是懒得打命令, 匹配代码的话. 下载 `dist\YggdrasilOfficialProxy.jar` nya.
 这个版本还包含了YOP使用的库nya.
 
-# 使用的库
-
-- [Netty](http://netty.io) - HTTP Server.
-- [Gson](https://github.com/google/gson) - JSON parsing.
-- [SnakeYaml](http://www.snakeyaml.org/) - YAML Parsing
-- [JetBrains Annotations](https://www.jetbrains.com/help/idea/annotating-source-code.html) - Source Annotations
-
 # 使用
-## JavaAgent启动
+## JavaAgent启动 [推荐]
 你只需要把服务器的启动参数的
 `-javagent:injector.jar=...` 替换成 `-javaagent:YggdrasilOfficialProxy.jar` 就好
 
@@ -26,7 +20,7 @@ official服务器的人同时登录的支持nya. 并且提供了2种加载方式
 java -javaagent:YggdrasilOfficialProxy.jar -jar spigot-1.15.2.jar nogui
 ```
 
-## 独立服务器启动
+## 独立服务器启动 [不推荐]
 启动命令
 ```shell script
 java -jar YggdrasilOfficialProxy.jar
