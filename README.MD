@@ -1,6 +1,9 @@
 # YggdrasilOfficialProxy
 
 此版本为YggdrasilOfficialProxy的一个Fork，主要解决依赖冲突问题，使得YOP可像普通Agent一样加载而无需繁琐设置  
+使用本Fork则意味您将无法获得来自上游开发者的支持服务，同时本项目也不提供技术支持。  
+某种意义上，这个项目是给我自己改着用的，Maven+Java它不香吗，Kotlin真的搞不来。  
+
 YggdrasilOfficialProxy 采用了代理服务器的方式建立Yggdrasil服务器和
 official服务器的人同时登录的支持nya. 并且提供了2种加载方式nya!
 
@@ -17,7 +20,7 @@ official服务器的人同时登录的支持nya. 并且提供了2种加载方式
 `-javagent:injector.jar=...` 替换成 `-javaagent:YggdrasilOfficialProxy.jar` 就好
 
 ```shell script
-java -javaagent:YggdrasilOfficialProxy.jar -jar spigot-1.15.2.jar nogui
+java -javaagent:YggdrasilOfficialProxy.jar -jar spigot.jar nogui
 ```
 
 ## 独立服务器启动 [不推荐]
@@ -49,7 +52,7 @@ official-first: false
 # 填 0 以自动分配
 # 填 50000~51000
 # 自动从 50000~51000中选择一个端口
-port: 4321
+port: 0
 
 # 代理读取超时时间(毫秒)
 timed-out:
